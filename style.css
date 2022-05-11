@@ -1,0 +1,15 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.header {
+  margin-top: 160px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+}
