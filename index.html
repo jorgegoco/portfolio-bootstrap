@@ -42,7 +42,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Multi-Post Stories Gain+Glory</h5>
-            <ul>
+            <ul class="list-unstyled d-flex justify-content-evenly">
               <li>Ruby On Rails</li>
               <li>Css</li>
               <li>Javascript</li>
@@ -54,7 +54,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Multi-Post Stories Gain+Glory</h5>
-            <ul>
+            <ul class="list-unstyled d-flex justify-content-evenly">
               <li>Ruby On Rails</li>
               <li>Css</li>
               <li>Javascript</li>
@@ -66,7 +66,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Multi-Post Stories Gain+Glory</h5>
-            <ul>
+            <ul class="list-unstyled d-flex justify-content-evenly">
               <li>Ruby On Rails</li>
               <li>Css</li>
               <li>Javascript</li>
@@ -78,7 +78,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Multi-Post Stories Gain+Glory</h5>
-            <ul>
+            <ul class="list-unstyled d-flex justify-content-evenly">
               <li>Ruby On Rails</li>
               <li>Css</li>
               <li>Javascript</li>
@@ -90,7 +90,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Multi-Post Stories Gain+Glory</h5>
-            <ul>
+            <ul class=" list-unstyled d-flex justify-content-evenly">
               <li>Ruby On Rails</li>
               <li>Css</li>
               <li>Javascript</li>
@@ -102,7 +102,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Multi-Post Stories Gain+Glory</h5>
-            <ul>
+            <ul class=" list-unstyled d-flex justify-content-evenly">
               <li>Ruby On Rails</li>
               <li>Css</li>
               <li>Javascript</li>
@@ -125,7 +125,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Languages</h5>
-            <ul>
+            <ul class=" list-unstyled d-flex justify-content-evenly">
               <li>JavaScript</li>
               <li>Ruby</li>
               <li>Html</li>
@@ -137,9 +137,8 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Frameworks</h5>
-            <ul>
+            <ul class=" list-unstyled d-flex justify-content-evenly">
               <li>Bootstrap</li>
-              <li>Ruby on rails</li>
               <li>RSpec</li>
               <li>Capybara</li>
               <li>Selenium</li>
@@ -150,7 +149,7 @@
         <div class="col">
           <div class="p-3 border bg-light">
             <h5 class="text-center fw-bolder">Skills</h5>
-            <ul>
+            <ul class="list-unstyled d-flex justify-content-evenly">
               <li>Codekit</li>
               <li>GitHub</li>
               <li>Codepen</li>
@@ -163,20 +162,27 @@
       </div>
     </div>
   </section>
-  <footer class="container d-flex flex-row my-5">
-    <h5 class="text-center fw-bolder">I'm always interested in hearing about new projects, so if you'd like to chat
+  <footer class="container d-flex">
+    <p class="text-center fw-bolder">I'm always interested in hearing about new projects, so if you'd like to chat
       please
       get
-      in touch.</h5>
+      in touch.
+    </p>
     <form action="https://formspree.io/f/xdobpwbj" method="post">
-      <label class="sr-only" for="name">Name</label>
-      <input class="input-text" id="name" name="name" type="text" placeholder="Full name" maxlength="30" required>
-      <label class="sr-only" for="email">Email</label>
-      <input class="input-text" id="email" name="email" type="email" placeholder="Email address" required>
-      <label class="sr-only" for="text">Text</label>
-      <textarea class="input-textarea" id="text" name="text" maxlength="500" placeholder="Enter text here"
+      <div class="mb-1">
+        <label class="sr-only" for="name">Name</label>
+        <input class="input-text" id="name" name="name" type="text" placeholder="Full name" maxlength="30" required>
+      </div>
+      <div class="mb-3">
+        <label class="sr-only" for="email">Email</label>
+        <input class="input-text" id="email" name="email" type="email" placeholder="Email address" required>
+      </div>
+      <div class="mb-3">
+        <label class="sr-only" for="text">Text</label>
+        <textarea class="input-textarea" id="text" name="text" maxlength="500" placeholder="Enter text here"
         required></textarea>
-      <button class="btn btn-success">Get in touch</button>
+      </div>
+      <button type="submit" class="btn btn-success">Get in touch</button>
     </form>
   </footer>
 </body>
