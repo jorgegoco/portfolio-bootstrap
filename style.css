@@ -4,7 +4,8 @@ body {
 }
 
 .header {
-  margin-top: 160px;
+  padding-top: 160px;
+  padding-bottom: 473px;
 }
 
 h1 {
@@ -12,4 +13,8 @@ h1 {
   font-size: 48px;
   line-height: 60px;
   letter-spacing: 0.37px;
+}
+
+.my-recent-works {
+  margin-bottom: 192px;
 }
